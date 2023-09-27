@@ -13,6 +13,8 @@ import React from "react";
 // import ExercicioRef from "./estado/useRef/ExercicioRef";
 
 import AppContext from "./estado/useContext/AppContext";
+import TesteForm from "./form/TesteForm";
+import FormApp from "./form/formExercise/FormApp";
 
 const App = () => {
   // const { pathname } = window.location;
@@ -45,7 +47,10 @@ const App = () => {
       {/* <UseRef /> */}
       {/* <ExercicioRef /> */}
 
-      <AppContext />
+      {/* <AppContext /> */}
+
+      {/* <TesteForm /> */}
+      <FormApp />
     </div>
   );
 };
