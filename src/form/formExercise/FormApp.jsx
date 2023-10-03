@@ -13,8 +13,10 @@ const FormApp = () => {
     estado: "",
   });
 
+  // estado para mostrar resposta ao criar usuário
   const [response, setResponse] = React.useState(null);
 
+  // cria um novo usúario através método POST
   function handleSubmit(event) {
     event.preventDefault();
     fetch("https://ranekapi.origamid.dev/json/api/usuario", {
@@ -28,6 +30,7 @@ const FormApp = () => {
     });
   }
 
+  // transforma os dados do obj
   function handleChange({ target }) {
     const { id, value } = target;
     setForm({ ...form, [id]: value });

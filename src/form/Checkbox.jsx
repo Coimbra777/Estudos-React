@@ -1,7 +1,12 @@
 import React from "react";
 
-const Checkbox = () => {
-  const [termos, setTermos] = React.useState(false);
+const Checkbox = ({ options, value, setValue, ...props }) => {
+  const [checkbox, setCheckbox] = React.useState(false);
+
+  function handleChange({ target }) {
+    setCheckbox(target.checked);
+    // console.log(checkbox);
+  }
 
   return (
     <form>
@@ -9,10 +14,10 @@ const Checkbox = () => {
         <input
           type="checkbox"
           value="Termos"
-          checked={termos}
-          onChange={({ target }) => setTermos(target.checked)}
+          checked={checkbox}
+          onChange={handleChange}
         />
-        Aceito todos os termos.
+        Li os termos.
       </label>
     </form>
   );

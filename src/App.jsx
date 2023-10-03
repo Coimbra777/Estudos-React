@@ -16,6 +16,9 @@ import AppContext from "./estado/useContext/AppContext";
 import TesteForm from "./form/TesteForm";
 import FormApp from "./form/formExercise/FormApp";
 import Checkbox from "./form/Checkbox";
+import ExerciseCheck from "./form/ExerciseCheckbox";
+import Input from "./form/Input";
+import Components from "./form/Components";
 
 const App = () => {
   // const { pathname } = window.location;
@@ -52,7 +55,9 @@ const App = () => {
 
       {/* <TesteForm /> */}
       {/* <FormApp /> */}
-      <Checkbox />
+      {/* <Checkbox /> */}
+      {/* <ExerciseCheck /> */}
+      <Components />
     </div>
   );
 };
