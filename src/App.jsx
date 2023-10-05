@@ -19,6 +19,7 @@ import Checkbox from "./form/Checkbox";
 import ExerciseCheck from "./form/ExerciseCheckbox";
 import Input from "./form/Input";
 import Components from "./form/Components";
+import Validacao from "./form/validacao/Validacao";
 
 const App = () => {
   // const { pathname } = window.location;
@@ -57,7 +58,8 @@ const App = () => {
       {/* <FormApp /> */}
       {/* <Checkbox /> */}
       {/* <ExerciseCheck /> */}
-      <Components />
+      {/* <Components /> */}
+      <Validacao />
     </div>
   );
 };
