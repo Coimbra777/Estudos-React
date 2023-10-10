@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 // import Button from "./form/Button";
 // import Header from "./components/Header";
 // import Home from "./components/Home";
@@ -12,14 +12,17 @@ import React from "react";
 // import UseRef from "./estado/useRef/UseRef";
 // import ExercicioRef from "./estado/useRef/ExercicioRef";
 
-import AppContext from "./estado/useContext/AppContext";
-import TesteForm from "./form/TesteForm";
-import FormApp from "./form/formExercise/FormApp";
-import Checkbox from "./form/Checkbox";
-import ExerciseCheck from "./form/ExerciseCheckbox";
-import Input from "./form/Input";
-import Components from "./form/Components";
-import Validacao from "./form/validacao/Validacao";
+// import AppContext from "./estado/useContext/AppContext";
+// import TesteForm from "./form/TesteForm";
+// import FormApp from "./form/formExercise/FormApp";
+// import Checkbox from "./form/Checkbox";
+// import ExerciseCheck from "./form/ExerciseCheckbox";
+// import Input from "./form/Input";
+// import Components from "./form/Components";
+// import Validacao from "./form/validacao/Validacao";
+// import ValidacaoHook from "./form/validacao/ValidacaoHook";
+
+import Exemplo from "./useReducer/Exemplo";
 
 const App = () => {
   // const { pathname } = window.location;
@@ -59,7 +62,10 @@ const App = () => {
       {/* <Checkbox /> */}
       {/* <ExerciseCheck /> */}
       {/* <Components /> */}
-      <Validacao />
+      {/* <Validacao /> */}
+      {/* <ValidacaoHook /> */}
+
+      <Exemplo />
     </div>
   );
 };
